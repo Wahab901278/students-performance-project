@@ -3,5 +3,5 @@ numpy
 matplotlib
 scikit-learn
 seaborn
-
-#e.
+setuptools
+#-e .
