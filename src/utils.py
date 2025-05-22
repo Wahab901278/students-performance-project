@@ -25,7 +25,7 @@ def evaluate_models(X_train,y_train,X_test,y_test,models,param):
         report = {}
 
         for i in range(len(list(models))):
-            model = list(model.values())[i]
+            model = list(models.values())[i]
             parameters=param[list(models.keys())[i]]
 
             gs=GridSearchCV(model,parameters,cv=3)
@@ -43,7 +43,7 @@ def evaluate_models(X_train,y_train,X_test,y_test,models,param):
             test_model_score=r2_score(y_test,y_test_pred)
             test_model_mse=mean_squared_error(y_test,y_test_pred)
 
-            report[list(models.keys())[i]]=[test_model_score,test_model_mse]
+            report[list(models.keys())[i]]=test_model_score
 
         return report
     

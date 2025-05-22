@@ -7,4 +7,5 @@ setuptools
 missingno
 catboost 
 xgboost
+flask
 #-e .
