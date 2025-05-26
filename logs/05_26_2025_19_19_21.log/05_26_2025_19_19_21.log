@@ -1,0 +1,9 @@
+2025-05-26 19:19:21,455 - WARNING -  * Debugger is active!
+2025-05-26 19:19:21,456 - INFO -  * Debugger PIN: 814-597-138
+2025-05-26 19:19:25,758 - INFO - 127.0.0.1 - - [26/May/2025 19:19:25] "GET /predict_data HTTP/1.1" 200 -
+2025-05-26 19:19:25,874 - INFO - 127.0.0.1 - - [26/May/2025 19:19:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-26 19:19:30,662 - INFO - 127.0.0.1 - - [26/May/2025 19:19:30] "[35m[1mPOST /predict_data HTTP/1.1[0m" 500 -
+2025-05-26 19:19:30,777 - INFO - 127.0.0.1 - - [26/May/2025 19:19:30] "GET /predict_data?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-26 19:19:30,782 - INFO - 127.0.0.1 - - [26/May/2025 19:19:30] "[36mGET /predict_data?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-26 19:19:30,844 - INFO - 127.0.0.1 - - [26/May/2025 19:19:30] "GET /predict_data?__debugger__=yes&cmd=resource&f=console.png&s=09LGdumvYCz8yQQoEFZc HTTP/1.1" 200 -
+2025-05-26 19:19:46,173 - INFO -  * Detected change in '/home/wahab901278/end-to-end-ml-project/app.py', reloading

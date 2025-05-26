@@ -95,7 +95,7 @@ class ModelTrainer:
 
             save_object(
                 file_path=self.model_trainer_config.trained_model_file_path,
-                obj=best_model_score
+                obj=best_model
 
             )
             y_pred=best_model.predict(X_test)

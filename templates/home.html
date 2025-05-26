@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math Score Predictor</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f0f4f8;
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: auto;
+        background: white;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+
+      label {
+        display: block;
+        margin-top: 15px;
+        font-weight: bold;
+      }
+
+      select,
+      input {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+      }
+
+      button {
+        margin-top: 20px;
+        width: 100%;
+        padding: 12px;
+        background: #007bff;
+        color: white;
+        font-size: 16px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: #0056b3;
+      }
+
+      .result {
+        margin-top: 20px;
+        font-size: 18px;
+        text-align: center;
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Math Score Predictor</h1>
+      <form action="/predict_data" method="post">
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+
+        <label for="race">Race/Ethnicity</label>
+        <select id="race" name="race_ethnicity">
+          <option value="group A">Group A</option>
+          <option value="group B">Group B</option>
+          <option value="group C">Group C</option>
+          <option value="group D">Group D</option>
+          <option value="group E">Group E</option>
+        </select>
+
+        <label for="parental_education">Parental Level of Education</label>
+        <select id="parental_education" name="parental_level_of_education">
+          <option value="some high school">Some High School</option>
+          <option value="high school">High School</option>
+          <option value="some college">Some College</option>
+          <option value="associate's degree">Associate's Degree</option>
+          <option value="bachelor's degree">Bachelor's Degree</option>
+          <option value="master's degree">Master's Degree</option>
+        </select>
+
+        <label for="lunch">Lunch</label>
+        <select id="lunch" name="lunch">
+          <option value="standard">Standard</option>
+          <option value="free/reduced">Free/Reduced</option>
+        </select>
+
+        <label for="prep">Test Preparation Course</label>
+        <select id="prep" name="test_preparation_course">
+          <option value="none">None</option>
+          <option value="completed">Completed</option>
+        </select>
+
+        <label for="reading_score">Reading Score</label>
+        <input
+          type="number"
+          id="reading_score"
+          name="reading_score"
+          min="0"
+          max="100"
+        />
+
+        <label for="writing_score">Writing Score</label>
+        <input
+          type="number"
+          id="writing_score"
+          name="writing_score"
+          min="0"
+          max="100"
+        />
+
+        <button type="submit">Predict Math Score</button>
+      </form>
+      <div class="result" id="result">{{results}}</div>
+    </div>
+  </body>
+</html>

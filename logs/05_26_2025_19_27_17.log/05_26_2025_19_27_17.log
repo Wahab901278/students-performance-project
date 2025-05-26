@@ -1,0 +1,11 @@
+2025-05-26 19:27:20,115 - INFO - Entered the data ingestion component or function
+2025-05-26 19:27:20,121 - INFO - Read the dataset as dataframe
+2025-05-26 19:27:20,134 - INFO - Ingestion of the data is completed
+2025-05-26 19:27:20,138 - INFO - Read Train and test data both
+2025-05-26 19:27:20,138 - INFO - Obtaining preprocessing object
+2025-05-26 19:27:20,139 - INFO - Categorical Columns:['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+2025-05-26 19:27:20,139 - INFO - Numerical Columns: ['writing_score', 'reading_score']
+2025-05-26 19:27:20,140 - INFO - Applying preprocessing object on training data and testing data
+2025-05-26 19:27:20,166 - INFO - Saved preprocessing object
+2025-05-26 19:27:20,167 - INFO - Split training and testing input and output data
+2025-05-26 19:28:17,905 - INFO - Best found model on both training and testing datset
