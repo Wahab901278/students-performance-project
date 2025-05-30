@@ -1,3 +1,7 @@
 myenv/
 .cache
 app.py
+
+__pycache__
+
+logs/
