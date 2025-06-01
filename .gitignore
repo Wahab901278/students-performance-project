@@ -1,6 +1,5 @@
 myenv/
 .cache
-app.py
 
 __pycache__
 
