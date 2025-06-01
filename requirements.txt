@@ -5,7 +5,5 @@ scikit-learn
 seaborn
 setuptools
 missingno
-catboost 
-xgboost
 flask
 #-e .
