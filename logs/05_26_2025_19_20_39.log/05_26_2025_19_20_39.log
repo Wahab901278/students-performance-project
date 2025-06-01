@@ -1,7 +1,0 @@
-2025-05-26 19:20:39,560 - WARNING -  * Debugger is active!
-2025-05-26 19:20:39,560 - INFO -  * Debugger PIN: 814-597-138
-2025-05-26 19:20:44,454 - INFO - 127.0.0.1 - - [26/May/2025 19:20:44] "[35m[1mPOST /predict_data HTTP/1.1[0m" 500 -
-2025-05-26 19:20:44,533 - INFO - 127.0.0.1 - - [26/May/2025 19:20:44] "[36mGET /predict_data?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
-2025-05-26 19:20:44,536 - INFO - 127.0.0.1 - - [26/May/2025 19:20:44] "[36mGET /predict_data?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
-2025-05-26 19:20:44,558 - INFO - 127.0.0.1 - - [26/May/2025 19:20:44] "GET /predict_data?__debugger__=yes&cmd=resource&f=console.png&s=bFbB1cBKjn5sxVyTD13T HTTP/1.1" 200 -
-2025-05-26 19:21:27,943 - INFO -  * Detected change in '/home/wahab901278/end-to-end-ml-project/src/pipeline/predict_pipeline.py', reloading

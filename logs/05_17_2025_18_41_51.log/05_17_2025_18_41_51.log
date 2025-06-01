@@ -1,8 +1,0 @@
-2025-05-17 18:41:52,932 - INFO - Entered the data ingestion component or function
-2025-05-17 18:41:52,935 - INFO - Read the dataset as dataframe
-2025-05-17 18:41:52,947 - INFO - Ingestion of the data is completed
-2025-05-17 18:41:52,950 - INFO - Read Train and test data both
-2025-05-17 18:41:52,951 - INFO - Obtaining preprocessing object
-2025-05-17 18:41:52,951 - INFO - Categorical Columns:['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
-2025-05-17 18:41:52,951 - INFO - Numerical Columns: ['writing_score', 'reading_score']
-2025-05-17 18:41:52,952 - INFO - Applying preprocessing object on training data and testing data

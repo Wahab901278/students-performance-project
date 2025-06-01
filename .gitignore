@@ -1,6 +1,8 @@
 myenv/
 .cache
-
+catboost_info/
+__pycache__
+logs/
 __pycache__
 
 logs/
